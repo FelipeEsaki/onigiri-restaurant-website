@@ -1,0 +1,35 @@
+header {
+    z-index: 9999;
+    width: 90%;
+    margin: 0 5%;
+    padding: 20px 0;
+    @include displayFlex (row, space-around);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    ul {
+        @include displayFlex (row, space-around);
+        gap: 60px;
+        font-size: 1.3rem;
+        font-weight: 300;
+
+        padding: 7px 0;
+        border-top: 2px solid #f23839;
+        border-bottom: 2px solid #f23839;
+    
+        li {
+            list-style: none;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    #logo {
+        width: 80px;
+    }
+}

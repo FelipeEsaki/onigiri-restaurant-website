@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&family=Long+Cang&family=Nanum+Brush+Script&family=Nothing+You+Could+Do&family=Poppins:wght@300;400;500;600;700;800;900&family=Yuji+Boku&display=swap");
+header {
+  z-index: 9999;
+  width: 90%;
+  margin: 0 5%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 60px;
+  font-size: 1.3rem;
+  font-weight: 300;
+  padding: 7px 0;
+  border-top: 2px solid #f23839;
+  border-bottom: 2px solid #f23839;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header #logo {
+  width: 80px;
+}
+
+.parallax {
+  width: 100%;
+  height: 50%;
+}
+.parallax img {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.slider img {
+  z-index: -1;
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 300vh;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=style.css.map */

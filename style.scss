@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Long+Cang&family=Nanum+Brush+Script&family=Nothing+You+Could+Do&family=Poppins:wght@300;400;500;600;700;800;900&family=Yuji+Boku&display=swap');
+
+@import 'variables';
+@import 'header';
+@import 'parallax';
+@import 'firstSection';
+@import 'secondSection';
+@import 'thirdSection';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 300vh;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+    font-family: 'Poppins', sans-serif;
+
+}
