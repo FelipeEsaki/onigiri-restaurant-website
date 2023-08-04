@@ -170,7 +170,6 @@ header #menu a {
     height: 100%;
   }
   .parallax h1 {
-    display: none;
     z-index: 1;
     position: absolute;
     color: #fff;
@@ -608,6 +607,11 @@ section.first-section .content {
     display: flex;
     flex-direction: row;
   }
+  .footer-content .options h2 {
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 400;
+  }
   .footer-content .medias {
     display: flex;
     width: 50%;
@@ -616,11 +620,6 @@ section.first-section .content {
   }
   .footer-content img {
     width: 60px;
-  }
-  .footer-content h2 {
-    font-size: 0.8rem;
-    color: #fff;
-    font-weight: 400;
   }
   .footer-content a {
     width: 20px;
@@ -664,4 +663,14 @@ body {
   background-size: cover;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-image: url(img/bg.png);
+    background-repeat: repeat;
+    background-size: contain;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+  }
 }/*# sourceMappingURL=style.css.map */
