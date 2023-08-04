@@ -4,17 +4,17 @@ header {
     margin: 0 5%;
     padding: 20px 0;
     @include displayFlex (row, space-around);
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
 
     ul {
         @include displayFlex (row, space-around);
-        gap: 60px;
+        gap: 50px;
         font-size: 1.3rem;
         font-weight: 300;
 
-        padding: 7px 0;
+        padding: 7px 0px;
         border-top: 2px solid #f23839;
         border-bottom: 2px solid #f23839;
     

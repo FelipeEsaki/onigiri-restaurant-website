@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Onigiri</title>
     
@@ -26,17 +27,108 @@
         </ul>
     </header>
 
-    <!-- parallax -->
-    <section class="parallax">
-        <img id="shadow" src="img/Shadow.png" alt="">
-        <img id="sun" src="img/sun 2.png" alt="">
-        <img src="img/samurai.png" alt="">
-    </section>  
+    <main>
 
-    <div class="slider">
-        <img src="img/slide first.png" alt="">
-    </div>
+        <section class="parallax">
+            <img src="img/samurai.png" alt="">
+        </section>
 
-<script src="script.js"></script>
+        <div class="parallax1">
+            <img id="shadow" src="img/Shadow.png" alt="">
+            <img id="sun" src="img/sun 2.png" alt="">
+        </div>
+
+        <section class="first-section">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+
+                <div class="slide first">
+                    <img src="img/slide first.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/slide second.png" alt="">
+                </div>
+
+                <!-- navigation auto -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label class="manual-btn" for="radio1"></label>
+                    <label class="manual-btn" for="radio2"></label>
+                </div>
+                
+            </div>
+        </section>
+
+       <section class="second-section">
+        <h1>Explore nosso Menu</h1>
+
+        <div class="menu">
+            <a href="">
+                <div class="menu-itens" >
+                    <img src="img/rodizio.jpg" alt="">
+                    <h2>Rodízio</h2>
+                </div>
+            </a>
+            <a href="">
+                <div class="menu-itens" >
+                    <img src="img/a la carte.jpg" alt="">
+                    <h2>À La Carte</h2>
+                </div>
+            </a>
+            <a href="">
+                <div class="menu-itens" >
+                    <img src="img/bebidas.png" alt="">
+                    <h2>Bebidas</h2>
+                </div>
+            </a>
+            <a href="">
+                <div class="menu-itens" >
+                    <img src="img/sobremesa.jpg" alt="">
+                    <h2>Sobremesas</h2>
+                </div>
+            </a>
+        </div>
+       </section>
+
+       <section class="third-section">
+            <div class="container">
+                <div class="title">
+                   <h1>Chef</h1>
+                   <h2>Takeda</h2>
+                </div>
+
+                <p>Filho de japoneses imigrantes, Chef Takeda
+                    trouxe ao Brasil a mais tradicional culinário 
+                    japonesa, entrando sabor e cultura através
+                    de seus pratos artesanais.</p>
+            </div>
+       </section>
+
+       <footer class="footer">
+        <div class="footer-content">
+            <img src="img/logo.png" alt="">
+
+            <h2>Trabalhe conosco</h2>
+            <h2>Fale conosco</h2>
+            <h2>Avaliações</h2>
+
+            <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </div>
+
+        <div class="copyright">
+            <h3>Copyright © 2023 Onigiri Japanese Food Todos os direitos reservados.</h3>
+            <h4>Desenvolvido por Felipe Esaki Roman.</h4>
+        </div>
+       </footer>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

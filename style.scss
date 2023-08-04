@@ -6,6 +6,7 @@
 @import 'firstSection';
 @import 'secondSection';
 @import 'thirdSection';
+@import 'footer';
 
 
 
@@ -17,10 +18,9 @@
 
 
 body {
-    width: 100vw;
-    height: 300vh;
     background-image: url(img/bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
 
     font-family: 'Poppins', sans-serif;
