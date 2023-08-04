@@ -170,6 +170,7 @@ header #menu a {
     height: 100%;
   }
   .parallax h1 {
+    display: none;
     z-index: 1;
     position: absolute;
     color: #fff;
@@ -394,13 +395,13 @@ section.first-section .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
   }
   .second-section .menu a {
     text-decoration: none;
   }
   .second-section .menu-itens {
-    width: 180px;
+    width: 160px;
     padding: 30px 20px;
     border: 1px solid #fff;
     border-radius: 20px;
@@ -415,7 +416,7 @@ section.first-section .content {
     border-radius: 20px;
   }
   .second-section .menu-itens h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     align-items: center;
     font-family: "Finger Paint", cursive;
     font-weight: 300;
