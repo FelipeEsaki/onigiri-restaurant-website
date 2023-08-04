@@ -273,11 +273,12 @@ section.first-section .content {
   section.first-section {
     width: 100%;
     position: relative;
+    overflow-x: hidden;
   }
   section.first-section .slides {
-    width: 400vw;
+    width: 400%;
     display: flex;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   section.first-section .slides input {
     display: none;

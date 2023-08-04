@@ -75,11 +75,12 @@ section.first-section {
     section.first-section {
         width: 100%;
         position: relative;
+        overflow-x: hidden;
     
         .slides {
-            width: 400vw;
+            width: 400%;
             display: flex;
-            overflow: hidden;
+            overflow-x: hidden;
             
             input {
                 display: none;
@@ -88,6 +89,7 @@ section.first-section {
             .slide {
                 width: 100vw;
                 position: relative;
+                
     
                 img {
                     width: 100vw;
